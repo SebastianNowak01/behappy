@@ -3,3 +3,21 @@
     font-family: 'Style Script', cursive;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    background-image: linear-gradient(45deg, red, purple, blue);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 60%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background-color: rgba(217, 25, 255, 0.2);
+    padding: 1em;
+    font-size: 1.5rem;
+}
