@@ -19,15 +19,17 @@ body {
     border-radius: 2rem;
     background-color: rgba(217, 25, 255, 0.2);
     padding: 2em;
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: relative;
     max-width: 100vw;
-    max-height:100%;
 }
 
 button {
-    height: 2rem;
     position: absolute;
-    bottom: 0.5em;
-    left: calc(50% - 2rem);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1em;
+    padding: 0.2em;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
 }
