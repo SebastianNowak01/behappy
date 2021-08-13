@@ -18,6 +18,14 @@ body {
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background-color: rgba(217, 25, 255, 0.2);
-    padding: 1em;
+    padding: 2em;
     font-size: 1.5rem;
+    position: relative;
+}
+
+button {
+    height: 2rem;
+    position: absolute;
+    bottom: 0.5em;
+    left: calc(50% - 2rem);
 }
