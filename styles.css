@@ -14,13 +14,15 @@ body {
 }
 
 #container {
-    height: 60%;
+    height: 55%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background-color: rgba(217, 25, 255, 0.2);
     padding: 2em;
     font-size: 1.5rem;
     position: relative;
+    max-width: 100%;
+    max-height:100%;
 }
 
 button {
