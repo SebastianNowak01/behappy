@@ -18,11 +18,11 @@ body {
     height: 55%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: rgba(168, 255, 236, 0.4);
+    background: rgba(30, 121, 101, 0.4);
     padding: 2em;
     font-size: 2rem;
     position: relative;
-    max-width: 100vw;
+    max-width: 96vw;
 }
 
 button {
